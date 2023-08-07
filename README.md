@@ -34,3 +34,7 @@ make init
 ```bash
 make up
 ```
+
+起動が完了すると下記のURLから確認できます:
+* バックエンド: http://localhost:8000
+* フロントエンド: http://localhost:3000
