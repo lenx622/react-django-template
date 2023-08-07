@@ -14,7 +14,7 @@
 
 1. リポジトリをクローンします:
 ```bash
-git clone https://github.com/yourusername/react-django-template.git
+git clone https://github.com/lenx622/react-django-template.git
 ```
 
 2. プロジェクトのディレクトリに移動します:
