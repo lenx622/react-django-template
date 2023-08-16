@@ -38,3 +38,54 @@ make up
 起動が完了すると下記のURLから確認できます:
 * バックエンド: http://localhost:8000
 * フロントエンド: http://localhost:3000
+
+## Commands
+このテンプレートには、以下のコマンドが含まれています:
+
+#### up:
+開発サーバーをバックグラウンドで起動します。
+```bash
+make up
+```
+
+#### down:
+起動中のサービスを停止し、関連するコンテナ、ネットワーク、ボリュームを削除します。
+```bash
+make down
+```
+
+#### reload:
+backend と frontend のサービスを再起動します。
+```bash
+make reload
+```
+
+#### migrate:
+Djangoのマイグレーションを実行します。
+```bash
+make migrate
+```
+
+#### init:
+初期セットアップを行います。
+```bash
+make init
+```
+
+#### generate_secret_key:
+Djangoのシークレットキーを生成するスクリプトを実行します。
+```bash
+make generate_secret_key
+```
+
+#### create_django_app:
+指定した名前のDjangoアプリを作成します。APPNAME変数にアプリの名前を設定してください。
+```bash
+make create_django_app APPNAME=<your_app_name>
+```
+
+#### npm_i:
+frontendで指定したNPMモジュールをインストールします。MODULE変数にモジュール名を設定してください。
+```bash
+make npm_i MODULE=<module_name>
+```
