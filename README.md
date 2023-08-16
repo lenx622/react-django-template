@@ -84,7 +84,7 @@ make generate_secret_key
 make create_django_app APPNAME=<your_app_name>
 ```
 
-#### npm_i:
+### npm_i:
 frontendで指定したNPMモジュールをインストールします。MODULE変数にモジュール名を設定してください。
 ```bash
 make npm_i MODULE=<module_name>
