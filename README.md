@@ -42,43 +42,43 @@ make up
 ## Commands
 このテンプレートには、以下のコマンドが含まれています:
 
-#### up:
+### up:
 開発サーバーをバックグラウンドで起動します。
 ```bash
 make up
 ```
 
-#### down:
+### down:
 起動中のサービスを停止し、関連するコンテナ、ネットワーク、ボリュームを削除します。
 ```bash
 make down
 ```
 
-#### reload:
+### reload:
 backend と frontend のサービスを再起動します。
 ```bash
 make reload
 ```
 
-#### migrate:
+### migrate:
 Djangoのマイグレーションを実行します。
 ```bash
 make migrate
 ```
 
-#### init:
+### init:
 初期セットアップを行います。
 ```bash
 make init
 ```
 
-#### generate_secret_key:
+### generate_secret_key:
 Djangoのシークレットキーを生成するスクリプトを実行します。
 ```bash
 make generate_secret_key
 ```
 
-#### create_django_app:
+### create_django_app:
 指定した名前のDjangoアプリを作成します。APPNAME変数にアプリの名前を設定してください。
 ```bash
 make create_django_app APPNAME=<your_app_name>
